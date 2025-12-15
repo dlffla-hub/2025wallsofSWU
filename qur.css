@@ -1,0 +1,46 @@
+body {
+    font-weight: bold;       
+    font-size: 2rem;
+    color: black;
+}
+
+.main{
+    display: flex;
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+    color: inherit;
+    justify-content: center;
+	align-items: center;
+}
+
+.text {margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+a:link { 
+    color:black;
+}
+a:hover { 
+    color:rgb(74, 74, 74);
+}
+a:active {
+    color:rgb(127, 127, 127);
+}
+
+
+.copyright {
+    margin: 0;
+    font-weight: bold;       
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
