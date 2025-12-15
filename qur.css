@@ -16,6 +16,10 @@ body {
 	align-items: center;
 }
 
+li{
+    list-style-type: none;
+}
+
 .text {
 	list-style-type: none;
 	margin-bottom: 10px;
@@ -47,3 +51,4 @@ a:active {
     color: rgb(180, 180, 180);
 
 }
+
