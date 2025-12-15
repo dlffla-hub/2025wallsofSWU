@@ -12,7 +12,7 @@ a {
     color: black;
     text-decoration-line: none;
     color: inherit;
-    flex-direction: column;
+    justify-content: center;
 	align-items: center;
 }
 
@@ -27,6 +27,7 @@ a:active {
 }
 
 .copyright {
+    top: 90%;
     margin: 0;
     font-weight: bold;       
     font-size: 1rem;
