@@ -16,7 +16,9 @@ body {
 	align-items: center;
 }
 
-.text {margin-bottom: 10px;
+.text {
+	list-style-type: none;
+	margin-bottom: 10px;
     text-align: center;
     align-items: center;
 }
@@ -43,4 +45,5 @@ a:active {
     font-size: 1rem;
     text-align: center;
     color: rgb(180, 180, 180);
+
 }
