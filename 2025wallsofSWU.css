@@ -1,18 +1,35 @@
-body{
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
     display: flex;
-    justify-content: center;
-    align-items: center;    
     font-weight: bold;       
     font-size: 10rem;
     text-align: center;
     color: black;
+    text-decoration-line: none;
+    color: inherit;
+    flex-direction: column;
+	align-items: center;
 }
 
-a {
-  text-decoration-line: none;
-  color: inherit;
+a:link { 
+    color:black;
+}
+a:hover { 
+    color:rgb(74, 74, 74);
+}
+a:active {
+    color:rgb(127, 127, 127);
 }
 
-a:link { color:black; }
-a:hover { color:rgb(74, 74, 74); }
-a:active { color:rgb(127, 127, 127); }
+.copyright {
+    margin: 0;
+    font-weight: bold;       
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
