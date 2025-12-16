@@ -37,6 +37,7 @@ a {
 
 
 .description {
+    font-weight: bold;  
     font-size: 15px;
     line-height: 1.8;
     text-align: center;
@@ -60,6 +61,7 @@ footer {
     object-fit: cover; 
     filter: brightness(0.9); 
 }
+
 
 
 
