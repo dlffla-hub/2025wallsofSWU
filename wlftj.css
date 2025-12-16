@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url("wlftj.jpg");
+    background-image: url("wlftj2.jpg");
     background-size: cover;
     color: rgb(255, 255, 255);
 }
@@ -62,6 +62,7 @@ footer {
     object-fit: cover; 
     filter: brightness(0.9); 
 }
+
 
 
 
